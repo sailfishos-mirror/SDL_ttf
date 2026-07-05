@@ -20004,7 +20004,7 @@ printf "%s\n" "#define ALIGNOF_STRUCT_CHAR__ $ac_cv_alignof_struct_char__" >>con
 			TTF_LIBS="$TTF_LIBS -lusp10 -lgdi32 -lrpcrt4"
 			PC_LIBS="$PC_LIBS -lusp10 -lgdi32 -lrpcrt4"
 		  ;;
-		  *-*-darwin*|*-ios-*))
+		  *-*-darwin*|*-ios-*)
 			# for coretext support:
 			TTF_LIBS="$TTF_LIBS -framework CoreText -framework CoreGraphics -framework CoreFoundation"
 			PC_LIBS="$PC_LIBS -framework CoreText -framework CoreGraphics -framework CoreFoundation"
